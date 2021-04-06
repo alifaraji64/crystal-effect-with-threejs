@@ -1,4 +1,4 @@
-import './node_modules/three/build/three.min.js';
+import * as THREE from 'three';
 import * as dat from 'dat.gui';
 import gsap from 'gsap';
 import { OrbitControls } from './node_modules/three/examples/jsm/controls/OrbitControls';
